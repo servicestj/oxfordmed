@@ -1,0 +1,16 @@
+.about_section{
+     background-color: #fff;
+}
+.form-main{
+     align-items: flex-start;
+}
+.order-block{
+     padding: 1vw;
+
+}
+img.sticky {
+     position: -webkit-sticky; /* Safari */
+     position: sticky;
+     top: 0;
+   }
+   
