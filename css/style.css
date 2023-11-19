@@ -291,14 +291,13 @@ button {
         border-bottom-right-radius: 15px;
      }
 .banner_bg {
-     display: flex;
-     justify-content: center;
+     height: 100%;
     width: 100%;
+text-align: center;
 
-    position: relative;
 background-color: rgb(36,168,237,0.65);
 
-    height: 660px;
+
     background-size: 100%;
 
 }
@@ -460,7 +459,7 @@ background-color: rgb(36,168,237,0.65);
 .care_taital {
     width: 75%;
     float: right;
-    padding-top: 90px;
+
 }
 .finest_text{
      width: 100%;
@@ -1057,6 +1056,7 @@ left:-50px!important;
 }
 .slick-dots li{
      background-color:  #9bd4f7;
+
 }
 .slick-active{
      background-color: #fff!important;
@@ -1104,4 +1104,93 @@ left:-50px!important;
 .about-drop{
      display: flex;
      justify-content: space-between;
+}
+.banner_bg img{
+     width:400px;
+     height: auto;
+
+}
+.slick-dots {
+     bottom: -40px!important;
+     color: none!important;
+}
+
+.slick-dots li button:before{
+     color:#9bd4f8!important;
+}
+.slick-dots li.slick-active button:before {
+     color:#0ba0ff!important;
+     background: #0ba0ff!important;
+}
+.care_img{
+     display: flex;
+     justify-content: center;
+}
+.care_img img{
+     width:80%;
+     height: auto;
+}
+.logo-med{
+     width: 75px;
+     justify-self: center;
+}
+
+.med-clinic-text{
+
+     display: grid;
+grid-template-columns: 0.75fr 1fr 1fr;
+width: 100%;
+font-weight: 800;
+
+}
+.consult_section{
+     margin-bottom: 5vw;
+}
+.operation-video{
+     width:450px;
+     height: auto;
+
+}
+
+.video-block-oper{
+     display: flex;
+     justify-content: center;
+     margin-bottom: 3vw;
+}
+@media screen and (max-width: 768px) {
+     .op2{
+          position: initial;
+     }
+     .row-op {
+          flex-direction: column;
+     }
+     .oxford-slide{
+          max-width: 300px;
+     }
+     .operation-video{
+          max-width: 300px;
+     }
+     .doctor_section{
+          margin-top: 10vw;
+     }
+     .read_main{
+          display: flex;
+          justify-content: center;
+     }
+     .med-clinic-text {
+     grid-template-columns: 0.75fr 1fr 0.75fr;
+
+     }
+     .long_text{
+          padding: 20px;
+          margin: 0;
+     }
+     p{
+          margin: 0;
+          padding: 20px;
+     }
+
+}
+.rows{
+     display: flex;
 }
