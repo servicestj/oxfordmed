@@ -1171,7 +1171,7 @@ font-weight: 800;
           max-width: 300px;
      }
      .doctor_section{
-          margin-top: 10vw;
+          margin-top: 3vw;
      }
      .read_main{
           display: flex;
@@ -1189,8 +1189,63 @@ font-weight: 800;
           margin: 0;
           padding: 20px;
      }
+     .about-drop{
+          grid-template-columns: 5fr 1fr;
+          display:grid;
+     }
+     .about-drop svg{
+          justify-self:center
+      }
+      .op-studio {
+          width:100%;
+          box-shadow: 0px 0px 100px #dbdbdb;
+      }
+      .doctor_section{
+          padding-bottom:0px;
+      }
+      .banner_bg{
+          background-color: rgb(123 199 244);
+      }
+    .care_taital{
+     text-align:center;
+     width: 100%;
+     float:none;    
+    }
+    .finest_text{
+     text-align:center;
+    }
+    .care_text{
+     text-align:center;
+    }
+    .read_bt_2{
+     margin-bottom:20px;
+     margin-top:0;
+     width:100%;
+     
+    }
+    .ipsum_text{
+     text-align:center;
+    }
+    .about_taital{
+     width:100%;
+    }
+    .tiles-block-dock{
+     margin:5vw;
+    }
+    .read_main a{
+     width:100%;
+    }
+
 
 }
-.rows{
-     display: flex;
+.row{
+     margin-left:0px!important;
+     margin-right:0px!important;
+     width:100%;
 }
+.container-fluid{
+     padding-left:0px!important;
+     padding-right:0px!important;
+}
+
+
